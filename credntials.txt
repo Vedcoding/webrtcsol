@@ -1,0 +1,20 @@
+Pool Id ap-south-1_GHmb5LhJI
+Pool ARN arn:aws:cognito-idp:ap-south-1:142215564882:userpool/ap-south-1_GHmb5LhJI
+
+app client id   67plcnugm51mbp64vadlo03i58
+Identity pool ID 
+ap-south-1:91310894-ade6-4811-b4d2-ddbbef8539e4
+
+
+aws cognito-idp sign-up --client-id 67plcnugm51mbp64vadlo03i58 --username vedant12 --password Vedant@23 --user-attributes Name="email",Value="vedantsingh.3t@gmail.com"
+
+
+aws cognito-idp confirm-sign-up --client-id 67plcnugm51mbp64vadlo03i58 --username vedant --confirmation-code 957301
+447777
+
+
+
+ssh -i vedantkeypair.pem ec2-user@ec2-54-160-78-68.compute-1.amazonaws.com
+
+
+cognito-idp.ap-south-1.amazonaws.com/ap-south-1_GHmb5LhJI
